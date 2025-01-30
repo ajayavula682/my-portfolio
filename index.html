@@ -3,187 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ajay Avula's Portfolio</title>
+    <title>Ajay Kumar Reddy Avula - Resume</title>
     <style>
-    body {
-
-        font-family: Arial, sans-serif;
-      
-        margin: 0;
-      
-        padding: 0;
-      
-        display: flex;
-      
-        flex-direction: column;
-      
-        min-height: 100vh;
-      
-      }
-      
-      
-      /*
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
-      } */
-      
-      header {
-        background-color: #333;
-        color: #fff;
-        padding: 1rem 0;
-        text-align: center;
-      }
-      
-      header h1 {
-        margin: 0;
-      }
-      
-      nav ul {
-        list-style: none;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-      }
-      
-      nav ul li {
-        margin: 0 10px;
-      }
-      
-      nav ul li a {
-        color: #fff;
-        text-decoration: none;
-      }
-      
-      section {
-        padding: 2rem;
-        margin: 1rem 0;
-      }
-      
-      h2 {
-        border-bottom: 2px solid #333;
-        padding-bottom: 0.5rem;
-        margin-bottom: 1rem;
-      }
-      
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-      
-      .project, .blog-post {
-        background-color: #fff;
-        padding: 1rem;
-        margin: 1rem 0;
-        border-radius: 5px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-      
-      .project img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 5px;
-      }
-      
-      footer {
-        background-color: #333;
-        color: #fff;
-        text-align: center;
-        padding: 1rem 0;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
-        margin-bottom: auto;
-      }
-      
-      
-      @media (max-width: 768px) {
-        nav ul {
-            flex-direction: column;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
         }
-      
-        nav ul li {
-            margin: 5px 0;
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-      
-      
-      }
-</style>
+        h1, h2, h3 {
+            color: #333;
+        }
+        .contact-info, .section {
+            margin-bottom: 20px;
+        }
+        .contact-info p, .skills ul, .projects ul, .achievements ul {
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            list-style-type: none;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Ajay Avula</h1>
-        <nav>
+    <div class="container">
+        <h1>Ajay Kumar Reddy Avula</h1>
+        <div class="contact-info">
+            <p>📍 Cleveland, Ohio, 44114</p>
+            <p>📞 (440)794-1095 | 📧 <a href="mailto:AAvula01@indianatech.net">AAvula01@indianatech.net</a></p>
+            <p>🔗 <a href="https://github.com/ajayavula682">GitHub</a> | 🔗 <a href="https://www.linkedin.com/in/ajay-kumar-reddy-849b78176/">LinkedIn</a></p>
+        </div>
+        <div class="section">
+            <h2>OVERVIEW</h2>
+            <p>🎯 Dedicated and motivated graduate student pursuing a Master’s in Information Systems with a strong foundation in computer science and engineering. 💻 Proficient in full-stack development using Java Spring Boot and React, with a passion for building efficient and user-friendly web applications. 🔍 Experienced in academic projects involving machine learning and web application development, showcasing problem-solving skills and technical expertise.</p>
+        </div>
+        <div class="section skills">
+            <h2>SKILLS</h2>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li>🚀 Front-End: React, CSS, HTML5, React Routers</li>
+                <li>🛠 Back-End: Java Spring Boot</li>
+                <li>📌 Programming: JavaScript, Java, C, Python, C++</li>
+                <li>🗄 Databases: MySQL, Oracle</li>
+                <li>🛠 Tools: Jira, Slack, Microsoft Teams</li>
+                <li>🔄 Version Control: Git, GitHub</li>
+                <li>🖥 Operating Systems: Windows, macOS</li>
             </ul>
-        </nav>
-    </header>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Welcome to my portfolio! I am a passionate developer specialized in web development. Here you can find some of my recent projects, skills, blog posts, and ways to get in touch with me.</p>
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Python</li>
-            <li>Git & GitHub</li>
-        </ul>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1</h3>
-            <img src="project1.jpg" alt="Project 1">
-            <p>Description of project 1. This project involves...</p>
         </div>
-        <div class="project">
-            <h3>Project 2</h3>
-            <img src="project2.jpg" alt="Project 2">
-            <p>Description of project 2. This project is about...</p>
+        <div class="section education">
+            <h2>EDUCATION</h2>
+            <p>🎓 Master of Science in Information Systems<br>📍 Indiana Institute of Technology, United States<br>📊 CGPA: 3.7/4.0</p>
+            <p>🎓 Bachelor of Technology in Computer Science and Engineering<br>📍 Annamacharya University, India<br>📊 Percentage: 74.59/100</p>
         </div>
-        <!-- Add more projects as needed -->
-    </section>
-
-    <section id="blog">
-        <h2>Blog</h2>
-        <div class="blog-post">
-            <h3>Blog Post 1</h3>
-            <p>Excerpt from blog post 1. <a href="blog-post-1.html">Read more</a></p>
+        <div class="section projects">
+            <h2>PROJECTS</h2>
+            <ul>
+                <li>
+                    <strong>🔹 Web-Based Trading Application:</strong>
+                    <ul>
+                        <li>✅ Designed and implemented the admin components of a trading web application using React Routers and Hooks.</li>
+                        <li>✅ Integrated APIs for testing.</li>
+                        <li>Technologies: HTML5, Tailwind CSS, VS Code, JavaScript, React, Git, Jira.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>🔹 Brain Stroke Classification:</strong>
+                    <ul>
+                        <li>✅ Built a machine learning model to classify ischemic and hemorrhagic strokes, tackling one of the leading causes of mortality.</li>
+                        <li>Technologies: HTML5, CSS, PyCharm, Python, ML Algorithms.</li>
+                    </ul>
+                </li>
+            </ul>
         </div>
-        <div class="blog-post">
-            <h3>Blog Post 2</h3>
-            <p>Excerpt from blog post 2. <a href="blog-post-2.html">Read more</a></p>
+        <div class="section achievements">
+            <h2>ACHIEVEMENTS</h2>
+            <ul>
+                <li>🏒 Represented for my county in hockey competitions.</li>
+                <li>🤖 Second place in building a chatbot using IBM Watson for student branch predictions based on the EMCET exam during my undergraduate studies at Annamacharya University.</li>
+                <li>🍽 Developed a chatbot for food delivery (2018) that managed order tracking, cancellations, returns, address and phone number changes, order delays, and issue resolution. The system also prioritized food delivery assignments for top-rated delivery agents, ensuring faster and more efficient service.</li>
+                <li>♟ Chess achievements: Won multiple local and regional tournaments.</li>
+            </ul>
         </div>
-        <!-- Add more blog posts as needed -->
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach me via email at <a href="mailto:ajay@example.com">ajay@example.com</a> or follow me on social media:</p>
-        <ul>
-            <li><a href="https://twitter.com/yourusername" target="_blank">Twitter</a></li>
-            <li><a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
-        </ul>
-    </section>
-
-    <footer>
-        <p> 2025 Ajay  kumar Reddy Avula. All rights reserved.</p>
-    </footer>
+    </div>
 </body>
 </html>
