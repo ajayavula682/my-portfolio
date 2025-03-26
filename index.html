@@ -4,7 +4,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajay Kumar Reddy Avula - Portfolio</title>
-    <link rel="stylesheet" href="style.css"> </head>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif; /* Use Arial or a similar sans-serif font */
+            background-color: #f0f0f0; /* Light grey background */
+            color: #333; /* Dark grey text */
+            line-height: 1.6; /* Good line spacing for readability */
+        }
+
+        /* Header and Navigation */
+        header {
+            background-color: #0056b3; /* A dark blue for the header */
+            color: #fff; /* White text on the header */
+            padding: 1.5em 0; /* Vertical padding */
+            text-align: center; /* Center the header content */
+        }
+
+        nav ul {
+            list-style: none; /* Remove bullet points */
+            padding: 0;
+            margin: 0;
+            display: flex; /* Use flexbox for horizontal navigation */
+            justify-content: center; /* Center the navigation items */
+        }
+
+        nav ul li {
+            margin: 0 1.5em; /* Spacing between nav items */
+        }
+
+        nav a {
+            color: #fff; /* White text for nav links */
+            text-decoration: none; /* Remove underlines from links */
+            font-weight: bold; /* Make the nav links bold */
+            transition: color 0.3s ease; /* Smooth color transition on hover */
+        }
+
+        nav a:hover {
+            color: #ffd700; /* A gold color on hover */
+        }
+
+        /* Main Content Container */
+        .container {
+            max-width: 960px; /* Limit the content width */
+            margin: 2em auto; /* Top/bottom margin and center horizontally */
+            padding: 2em; /* Padding inside the container */
+            background-color: #fff; /* White background for the content area */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+            border-radius: 8px; /* Rounded corners for a softer look */
+        }
+
+        /* Section Headings */
+        h2 {
+            color: #0056b3; /* Dark blue for section headings */
+            border-bottom: 2px solid #0056b3; /* Underline the headings */
+            padding-bottom: 0.5em; /* Spacing below the heading */
+            margin-bottom: 1em; /* Margin below the heading */
+        }
+
+        /* Profile Summary */
+        .profile-summary {
+            text-align: center; /* Center the profile summary */
+            padding: 1.5em 0; /* Padding for the summary */
+            font-size: 1.1em; /* Slightly larger font size */
+        }
+
+        .profile-summary a {
+            color: #007bff; /* Blue color for links */
+            text-decoration: none;
+        }
+
+        .profile-summary a:hover {
+            text-decoration: underline; /* Underline links on hover */
+        }
+
+        /* Skills Section */
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75em;
+            justify-content: center; /* Center the skills list */
+        }
+
+        .skills ul li {
+            background-color: #e7e7e7; /* Light grey background for skills */
+            padding: 0.5em 1em; /* Padding for the skill items */
+            border-radius: 5px; /* Rounded corners for skill items */
+            font-size: 0.9em; /* Slightly smaller font size for skills */
+        }
+
+        /* Experience Section */
+        .experience-item {
+            margin-bottom: 1.5em; /* Spacing between experience items */
+            padding-bottom: 1.5em;
+            border-bottom: 1px solid #eee; /* Light border between items */
+        }
+
+        .experience-item:last-child {
+            border-bottom: none; /* Remove border from the last item */
+        }
+
+        .experience-item h3 {
+            margin-bottom: 0.5em; /* Spacing below the job title */
+            font-size: 1.2em; /* Slightly larger font size for job title */
+        }
+
+        .experience-item p {
+            font-size: 0.95em; /* Slightly smaller font size for descriptions */
+            color: #666; /* Grey color for descriptions */
+        }
+
+        .experience-item ul {
+            margin-top: 0.5em; /* Spacing above the bullet points */
+            padding-left: 1.5em; /* Indent the bullet points */
+        }
+
+        /* Project Section */
+        .project {
+            margin-top: 2em;
+        }
+
+        /* Education & Certifications */
+        .education, .certifications {
+            margin-top: 2em;
+        }
+
+        .certifications ul {
+            list-style: none; /* Remove bullet points */
+            padding: 0;
+        }
+
+        .certifications ul li {
+            margin-bottom: 0.5em; /* Spacing between certification items */
+        }
+
+        /* Contact Section */
+        #contact {
+            margin-top: 2em;
+            text-align: center; /* Center the contact information */
+        }
+
+        #contact p {
+            margin-bottom: 0.5em; /* Spacing between contact paragraphs */
+        }
+
+        /* Footer */
+        footer {
+            text-align: center; /* Center the footer text */
+            padding: 1em 0; /* Padding for the footer */
+            background-color: #0056b3; /* Dark blue background for the footer */
+            color: #fff; /* White text for the footer */
+            position: relative; /* Changed from fixed to relative */
+            bottom: 0;
+            width: 100%;
+            margin-top: 2em; /* Added margin to separate from main content */
+        }
+    </style>
+</head>
 <body>
     <header>
         <h1>Ajay Kumar Reddy Avula</h1>
@@ -87,8 +250,8 @@
             <div class="experience-item">
                 <h3>Web-Based Trading Application</h3>
                 <p>Designed and developed the admin panel of a trading platform using React, implementing React Router for efficient navigation and React Hooks for state management. Integrated RESTful APIs to enable seamless communication between the front-end and back-end, ensuring smooth data flow and functionality. Built responsive and user-friendly interfaces with Tailwind CSS and HTML5, enhancing the overall user experience. Conducted thorough testing of API integrations to ensure reliability and accuracy of data transactions. Utilized Git for version control and collaborated with team members using Jira for task management and project tracking. Developed the project in a highly organized environment using Visual Studio Code as the primary development tool.</p>
-        </div>
-        </section>
+            </div>
+            </section>
 
         <section id="education" class="education">
             <h2>Education</h2>
